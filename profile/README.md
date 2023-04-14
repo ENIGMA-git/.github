@@ -13,18 +13,22 @@ The ENIGMA Consortium has several goals:
 
 Image processing protocols and genetic analysis protocols for various ENIGMA projects are listed below.
 
-## Projects
+## Protocols
 
 <details>
-  ## <summary>ENIGMA sMRI Imaging</summary>
-
-  - abc []
-  - abc[]
-  - abc[]
+  <summary><h3>ENIGMA sMRI Imaging</h3></summary>
+  
+> Detailed structural MRI imaging analysis protocols, including subcortical VOLUME extraction, subcortical SHAPE analysis, cortical thickness and surface area, and sulci measure analysis. 
+  
+  - [ENIGMA FreeSurfer Cortical & Subcortical Extraction and QC Protocol](https://github.com/ENIGMA-git/ENIGMA-FreeSurfer-protocol)
+  - [abc]()
+  - [abc]()
 </details>
 
 <details>
-  <summary>ENIGMA DTI Imaging</summary>
+  <summary><h3>ENIGMA DTI Imaging</h3></summary>
+  
+> Detailed diffusion tensor imaging protocols for the ENIGMA DTI based projects.
   
   - [ENIGMA_DTI_01_Preprocessing](https://github.com/ENIGMA-git/ENIGMA_DTI_01_Preprocessing)
   - [ENIGMA_DTI_02_EPI_Correction](https://github.com/ENIGMA-git/ENIGMA_DTI_02_EPI_Correction)
@@ -34,33 +38,38 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
 
 
 <details>
-  <summary>ENIGMA Subcortical Shape</summary>
+  <summary><h3>ENIGMA Subcortical Shape</h3></summary>
 
-  - abc []
-  - abc[]
-  - abc[]
+> Detailed protocols for ENIGMA Shape analyses.
+  
+  - [abc]()
+  - [abc]()
+  - [abc]()
 </details>
 
 <details>
-  <summary>Genetics Protocols</summary>
+  <summary><h3>Genetics Protocols</h3></summary>
+  
+> Genetic analysis protocols for ENIGMA1, ENIGMA2 and ENIGMA-Cortex and DTI.
 
-  - abc []
-  - abc[]
-  - abc[]
+  - [abc]()
+  - [abc]()
+  - [abc]()
 </details>
 
 <details>
-<summary>ENIGMA Functional Imaging</summary>
+  <summary><h3>ENIGMA Functional Imaging</h3></summary>
 
-- ENIGMA HALFpipe
+> Detailed functional MRI imaging analysis protocols for the ENIGMA resting state and task based fMRI based projects.
+  
+- [ENIGMA HALFpipe](https://github.com/HALFpipe)
   - [ENIGMA HALFpipe](https://github.com/halfpipe/halfpipe)
   - [Quality Control manual](https://github.com/HALFpipe/QualityCheck)
 </details>
 
 <details>
-  <summary>ENIGMA Statistical Protocols</summary>
+  <summary><h3>ENIGMA Statistical Protocols</h3></summary>
 
-  - abc[]
-  - abc[]
-  - abc[]
+  - [ComBat for ENIGMA](https://enigma.ini.usc.edu/wp-content/uploads/2021/07/combat_for_enigma.R.zip)
+  - [Estimation of multisite accuracy]()
 </details>
