@@ -23,7 +23,7 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
   - [ENIGMA FreeSurfer Cortical & Subcortical Extraction and QC Protocol](https://github.com/ENIGMA-git/ENIGMA-FreeSurfer-protocol)
   - [PlaceHolder]()
   - [PlaceHolder]()
-  - <details>
+  &nbsp;<details>
     <summary>ENIGMA Subcortical Shape</summary>
 
     > Detailed protocols for ENIGMA Shape analyses.
