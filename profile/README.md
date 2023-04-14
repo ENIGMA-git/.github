@@ -25,11 +25,13 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
 
 <details>
   <summary>ENIGMA DTI Imaging</summary>
-
-  - abc []
-  - abc[]
-  - abc[] 
+  
+  - [ENIGMA_DTI_01_Preprocessing](https://github.com/ENIGMA-git/ENIGMA_DTI_01_Preprocessing)
+  - [ENIGMA_DTI_02_EPI_Correction](https://github.com/ENIGMA-git/ENIGMA_DTI_02_EPI_Correction)
+  - [ENIGMA_DTI_03_Quality_Control](https://github.com/ENIGMA-git/ENIGMA_DTI_03_Quality_Control)
+  - [ENIGMA_DTI_04_DTI_TBSS](https://github.com/ENIGMA-git/ENIGMA_DTI_04_DTI_TBSS)
 </details>
+
 
 <details>
   <summary>ENIGMA Subcortical Shape</summary>
@@ -48,17 +50,17 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
 </details>
 
 <details>
-  <summary>ENIGMA Functional Imaging</summary>
+<summary>ENIGMA Functional Imaging</summary>
 
-  - abc []
-  - abc[]
-  - abc[]
+- ENIGMA HALFpipe
+  - [ENIGMA HALFpipe](https://github.com/halfpipe/halfpipe)
+  - [Quality Control manual](https://github.com/HALFpipe/QualityCheck)
 </details>
 
 <details>
   <summary>ENIGMA Statistical Protocols</summary>
 
-  - abc []
+  - abc[]
   - abc[]
   - abc[]
 </details>
