@@ -13,7 +13,7 @@ The ENIGMA Consortium has several goals:
 
 Image processing protocols and genetic analysis protocols for various ENIGMA projects are listed below.
 
-## Protocols
+## ENIGMA Protocols
 
 <details>
   <summary><h3>ENIGMA sMRI Imaging</h3></summary>
@@ -23,6 +23,15 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
   - [ENIGMA FreeSurfer Cortical & Subcortical Extraction and QC Protocol](https://github.com/ENIGMA-git/ENIGMA-FreeSurfer-protocol)
   - [PlaceHolder]()
   - [PlaceHolder]()
+  - <details>
+    <summary>ENIGMA Subcortical Shape</summary>
+
+    > Detailed protocols for ENIGMA Shape analyses.
+
+      - [PlaceHolder]()
+      - [PlaceHolder]()
+      - [PlaceHolder]()
+  </details>
 </details>
 
 <details>
@@ -36,7 +45,7 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
   - [ENIGMA_DTI_04_DTI_TBSS](https://github.com/ENIGMA-git/ENIGMA_DTI_04_DTI_TBSS)
 </details>
 
-
+<!--
 <details>
   <summary><h3>ENIGMA Subcortical Shape</h3></summary>
 
@@ -46,6 +55,8 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
   - [PlaceHolder]()
   - [PlaceHolder]()
 </details>
+-->
+
 
 <details>
   <summary><h3>Genetics Protocols</h3></summary>
