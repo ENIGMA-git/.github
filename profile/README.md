@@ -1,4 +1,4 @@
-## Hi👋
+## About ENIGMA
 
 The ENIGMA Consortium is an international effort by leaders worldwide. The Consortium brings together researchers in imaging genomics, neurology and psychiatry, to understand brain structure and function, based on MRI, DTI, fMRI, genetic data and many patient populations.
 
