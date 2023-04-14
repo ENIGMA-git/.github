@@ -1,4 +1,4 @@
-![ENIGMA BANNER](../Assets/ENIGMA_BANNER.png "ENIGMA")
+![ENIGMA BANNER](https://raw.githubusercontent.com/ENIGMA-git/.github/main/Assets/ENIGMA_BANNER.png "ENIGMA")
 
 # ENIGMA GIT
 
