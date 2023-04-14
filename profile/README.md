@@ -13,7 +13,7 @@ The ENIGMA Consortium has several goals:
 
 Image processing protocols and genetic analysis protocols for various ENIGMA projects are listed below.
 
-## ENIGMA Protocols
+## Protocols
 
 <details>
   <summary><h3>ENIGMA sMRI Imaging</h3></summary>
@@ -59,7 +59,7 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
 
 
 <details>
-  <summary><h3>Genetics Protocols</h3></summary>
+  <summary><h3>ENIGMA Genetics Protocols</h3></summary>
   
 > Genetic analysis protocols for ENIGMA1, ENIGMA2 and ENIGMA-Cortex and DTI.
 
