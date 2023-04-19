@@ -20,7 +20,7 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
   
 > Detailed structural MRI imaging analysis protocols, including subcortical VOLUME extraction, subcortical SHAPE analysis, cortical thickness and surface area, and sulci measure analysis. 
   
-  - [ENIGMA FreeSurfer Cortical & Subcortical Extraction and QC Protocol](https://github.com/ENIGMA-git/ENIGMA-FreeSurfer-protocol)
+  - [ENIGMA-FreeSurfer-protocol](https://github.com/ENIGMA-git/ENIGMA-FreeSurfer-protocol)
   - [PlaceHolder]()
   - [PlaceHolder]()
   &nbsp;<details>
