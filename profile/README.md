@@ -63,9 +63,9 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
   
 > Genetic analysis protocols for ENIGMA1, ENIGMA2 and ENIGMA-Cortex and DTI.
 
-  - [PlaceHolder]()
-  - [PlaceHolder]()
-  - [PlaceHolder]()
+  - [GCLUST Phenotype Extraction Protocol](https://github.com/ENIGMA-git/GCLUST)
+  - [ENIGMA Protocols for Imputation and Genetic Associations](https://github.com/ENIGMA-git/Genetics)
+  - [ENIGMA-CNV](https://github.com/ENIGMA-git/ENIGMA-CNV)
 </details>
 
 <details>
@@ -80,7 +80,10 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
 
 <details>
   <summary><h3>ENIGMA Statistical Protocols</h3></summary>
-
+  
+  - [coMAPR](https://github.com/ENIGMA-git/coMAPR)
+  - [ENIGMADiseaseWorkingGroupStats](https://github.com/ENIGMA-git/ENIGMADiseaseWorkingGroupStats)
   - [ComBat for ENIGMA](https://enigma.ini.usc.edu/wp-content/uploads/2021/07/combat_for_enigma.R.zip)
   - [Estimation of multisite accuracy]()
+
 </details>
