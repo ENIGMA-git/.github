@@ -64,7 +64,7 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
 > Genetic analysis protocols for ENIGMA1, ENIGMA2 and ENIGMA-Cortex and DTI.
 
   - [GCLUST Phenotype Extraction Protocol](https://github.com/ENIGMA-git/GCLUST)
-  - [ENIGMA Protocols for Imputation and Genetic Associations](https://github.com/ENIGMA-git/Genetics)
+  - [ENIGMA Genetics](https://github.com/ENIGMA-git/Genetics)
   - [ENIGMA-CNV](https://github.com/ENIGMA-git/ENIGMA-CNV)
 </details>
 
