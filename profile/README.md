@@ -22,6 +22,13 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
   
   - [ENIGMA-FreeSurfer-protocol](https://github.com/ENIGMA-git/ENIGMA-FreeSurfer-protocol)
   - <details>
+    <summary>Sub-segmentation of amygdalar, hippocampal and thalamic nuclei</summary>
+
+    > Container allowing for sub-segmentation of amygdalar, hippocampal and thalamic nuclei using T1-weighted images. 
+
+      - [docker://cvriend/enigma_subthal](https://hub.docker.com/r/cvriend/enigma_subthal)
+    </details>
+  - <details>
     <summary>ENIGMA Subcortical Shape</summary>
 
     > Detailed protocols for ENIGMA Shape analyses.
