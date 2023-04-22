@@ -31,7 +31,7 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
   - <details>
     <summary>Cerebellar and Spinal Cord Pipelines</summary>
 
-    > Container allowing for sub-segmentation of amygdalar, hippocampal and thalamic nuclei using T1-weighted images. 
+    > Description for Cerebellar and Spinal Cord Pipelines. 
 
       - [ENIGMA Cerebellum Volumetrics Pipeline](https://forms.gle/N4rcZYfZhiNrh7ri8)
       - <details>
