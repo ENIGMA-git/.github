@@ -29,6 +29,21 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
       - [docker://cvriend/enigma_subthal](https://hub.docker.com/r/cvriend/enigma_subthal)
     </details>
   - <details>
+    <summary>Cerebellar and Spinal Cord Pipelines</summary>
+
+    > Container allowing for sub-segmentation of amygdalar, hippocampal and thalamic nuclei using T1-weighted images. 
+
+      - [ENIGMA Cerebellum Volumetrics Pipeline](https://forms.gle/N4rcZYfZhiNrh7ri8)
+      - <details>
+        <summary>ENIGMA-ATAXIA</summary>
+
+        > To carry out meta-analysis of existing structural MRI and DTI data from individuals with degenerative ataxia disorders and healthy controls.
+
+          - [Brain Voxel Based Morphometry](https://github.com/Harding-Lab/enigma-ataxia/tree/master/BrainVoxelBasedMorphometry)
+          - [SpinalCord](https://github.com/Harding-Lab/enigma-ataxia/tree/master/SpinalCord)
+          </details>
+      </details>
+  - <details>
     <summary>ENIGMA Subcortical Shape</summary>
 
     > Detailed protocols for ENIGMA Shape analyses.
