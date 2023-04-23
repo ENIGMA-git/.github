@@ -34,15 +34,9 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
     > Description for Cerebellar and Spinal Cord Pipelines. 
 
       - [ENIGMA Cerebellum Volumetrics Pipeline](https://forms.gle/N4rcZYfZhiNrh7ri8)
-      - <details>
-        <summary>ENIGMA-ATAXIA</summary>
-
-        > To carry out meta-analysis of existing structural MRI and DTI data from individuals with degenerative ataxia disorders and healthy controls.
-
-          - [Brain Voxel Based Morphometry](https://github.com/Harding-Lab/enigma-ataxia/tree/master/BrainVoxelBasedMorphometry)
-          - [SpinalCord](https://github.com/Harding-Lab/enigma-ataxia/tree/master/SpinalCord)
-          </details>
-      </details>
+      - [Brain Voxel Based Morphometry](https://github.com/Harding-Lab/enigma-ataxia/tree/master/BrainVoxelBasedMorphometry)
+      - [SpinalCord](https://github.com/Harding-Lab/enigma-ataxia/tree/master/SpinalCord)
+    </details>
   - <details>
     <summary>ENIGMA Subcortical Shape</summary>
 
