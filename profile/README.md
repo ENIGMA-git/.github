@@ -43,11 +43,9 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
     > This protocol allows you to segment, label, and visually inspect 123 cortical sulci/subject using FreeSurfer, BrainVISA, R and ImageMagick. 
 
       - <details>
-        <summary><a href="https://drive.google.com/drive/folders/0BwYbl1cTDCImck5DTy15UTMwRXc?usp=sharing">ENIGMA-Sulci</a></summary>
-    
-        > This protocol allows you to segment, label, and visually inspect 123 cortical sulci/subject using FreeSurfer, BrainVISA, R and ImageMagick. 
-    
-          - [Development: Fabrizio Pizzagalli fpizzagalli@gmail.com](mailto:fpizzagalli@gmail.com)
+        <summary><a href="https://drive.google.com/drive/folders/0BwYbl1cTDCImck5DTy15UTMwRXc?usp=sharing">ENIGMA-Sulci</a></summary> 
+        
+        - [Development: Fabrizio Pizzagalli fpizzagalli@gmail.com](mailto:fpizzagalli@gmail.com)
         </details>
     </details>
   - <details>
@@ -106,6 +104,17 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
   - [GCLUST Phenotype Extraction Protocol](https://github.com/ENIGMA-git/GCLUST)
   - [ENIGMA Genetics](https://github.com/ENIGMA-git/Genetics)
   - [ENIGMA-CNV](https://github.com/ENIGMA-git/ENIGMA-CNV)
+  - <details>
+    <summary>ENIGMA Visualization tools</summary>
+
+      - <details>
+        <summary><a href="http://enigma-toolbox.readthedocs.io">ENIGMA Toolbox </a></summary> 
+        
+        > A Python/Matlab ecosystem for (i) accessing 100+ ENIGMA datasets, facilitating cross-disorder analysis, (ii) visualizing data on brain surfaces, and (iii) contextualizing findings at the microscale (postmortem cytoarchitecture and gene expression) and macroscale (structural and functional connectomes). The ENIGMA Toolbox equips scientists with tutorials to explore molecular, histological, and network correlates of noninvasive neuroimaging markers of brain disorders. Moreover, the ENIGMA Toolbox bridges the gap between standardized data processing protocols and analytic workflows and facilitates cross-consortia initiatives.<br/><br/>
+        > Development and support: Sara Larivière & Boris Bernhardt (MICA Lab – Montreal Neurological Institute).
+
+        </details>
+    </details>
 </details>
 
 <details>
