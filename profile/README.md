@@ -31,21 +31,45 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
   - <details>
     <summary>Cerebellar and Spinal Cord Pipelines</summary>
 
-    > Description for Cerebellar and Spinal Cord Pipelines. 
+    > Cerebellar and Spinal Cord Pipelines from ENIGMA-Ataxia. 
 
       - [ENIGMA Cerebellum Volumetrics Pipeline](https://forms.gle/N4rcZYfZhiNrh7ri8)
       - [Brain Voxel Based Morphometry](https://github.com/Harding-Lab/enigma-ataxia/tree/master/BrainVoxelBasedMorphometry)
       - [SpinalCord](https://github.com/Harding-Lab/enigma-ataxia/tree/master/SpinalCord)
     </details>
   - <details>
+    <summary>ENIGMA Sulci Protocol</summary>
+
+    > This protocol allows you to segment, label, and visually inspect 123 cortical sulci/subject using FreeSurfer, BrainVISA, R and ImageMagick. 
+
+      - <details>
+        <summary><a href="https://drive.google.com/drive/folders/0BwYbl1cTDCImck5DTy15UTMwRXc?usp=sharing">ENIGMA-Sulci</a></summary>
+    
+        > This protocol allows you to segment, label, and visually inspect 123 cortical sulci/subject using FreeSurfer, BrainVISA, R and ImageMagick. 
+    
+          - [Development: Fabrizio Pizzagalli fpizzagalli@gmail.com](mailto:fpizzagalli@gmail.com)
+        </details>
+    </details>
+  - <details>
     <summary>ENIGMA Subcortical Shape</summary>
 
-    > Detailed protocols for ENIGMA Shape analyses.
-
-<!--       - [PlaceHolder]()
-      - [PlaceHolder]()
-      - [PlaceHolder]() -->
-  </details>
+    > Streamlined tool to perform fine-grained analysis of deep gray matter morphometry using standard brain MRI.
+      - [Shape Protocol](https://enigma.ini.usc.edu/ongoing/enigma-shape-analysis/)
+    </details>
+  - <details>
+    <summary>Voxel Based Morphometry</summary>
+    
+      - <details>
+        <summary><a href="https://sites.google.com/view/enigmavbm">ENIGMA-VBM Tool </a></summary>
+    
+        > 	The ENIGMA Voxel Based Morphometry (VBM) tool is a fully automated pipeline that performs DARTEL VBM and a number of QC steps and sensitivity analyses. The tool packages up the group data for easy transfer to the coordinating site that performs the voxel-wise meta-analysis. Development: Matthew Kempton, King’s College London. 
+        </details>
+      - <details>
+        <summary><a href="https://neuro-jena.github.io/enigma-cat12/">ENIGMA Computational Anatomy Toolbox (CAT12)</a></summary>
+    
+        > 	These protocols use [CAT12](https://neuro-jena.github.io/cat/)  to process voxel- and surface-based morphometry, but also enable region-based measures for volume and surface data. CAT12 includes various QC options and covers the entire analysis workflow, from cross-sectional or longitudinal data processing, to the statistical analysis, and visualization of results. Development: Christian Gaser, Jena University Hospital. 
+        </details>
+    </details>
 </details>
 <!--   - [PlaceHolder]()
   - [PlaceHolder]() -->
@@ -97,9 +121,29 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
 <details>
   <summary><h3>ENIGMA Statistical Protocols</h3></summary>
   
-  - [coMAPR](https://github.com/ENIGMA-git/coMAPR)
+  - <details>
+    <summary><a href="https://github.com/ENIGMA-git/coMAPR">coMAPR</a></summary>
+    
+    >  A database-backed set of routines for linear modelling and meta-analysis of Neuroimaging data 
+    </details>
+  - <details>
+    <summary><a href="https://github.com/ENIGMA-git/ENIGMADiseaseWorkingGroupStats">ENIGMADiseaseWorkingGroupStats</a></summary>
+    
+    >  The script is intended for the batch processing of multiple linear models, and the results can easily be carried forward to meta-analysis with provided scripts. 
+    </details>
+  - <details>
+    <summary><a href="https://enigma.ini.usc.edu/wp-content/uploads/2021/07/combat_for_enigma.R.zip">ComBat for ENIGMA</a></summary>
+    
+    >  ComBat is a function that allows for removal of known batch effects. This modified version (written in R) of the function for the ENIGMA Consortium also allows to separate functions for fitting and applying the harmonization, and allows missings and constant rows and minor changes in the arguments of the functions to facilitate their use. Please cite “Increased power by harmonizing structural MRI site differences with the ComBat batch adjustment method in ENIGMA” ([Radua et al., NeuroImage 2020](https://www.sciencedirect.com/science/article/pii/S1053811920304420 ))  
+    </details>
+  - <details>
+    <summary><a href="https://github.com/ENIGMA-git/coMAPR">Estimation of multisite accuracy</a></summary>
+    
+    >  The effects of the site may severely bias the accuracy of a multisite machine-learning model, even if the analysts removed them when fitting the model in the ‘training set’ and when applying the model in the ‘test set’. This simple R package estimates the accuracy of a multisite machine-learning model unbiasedly. It currently supports the estimation of sensitivity, specificity, balanced accuracy, the area under the curve, correlation, mean squared error, and hazard ratio for binomial, multinomial, gaussian, and survival (time-to-event) outcomes. Please cite “Biased accuracy in multisite machine-learning studies due to incomplete removal of the effects of the site” ([Solanes et al., Psychiatry Res Neuroimaging 2021](https://www.sciencedirect.com/science/article/abs/pii/S0925492721000652?via%3Dihub)) . R package can be downloaded here or installed with the command: install.packages(“[multisite.accuracy](https://www.imardgroup.com/multisite.accuracy/)”). Browser-based GUI can be accessed here  (this option does not require installation or any knowledge about R). 
+    </details>
+<!--  - [coMAPR](https://github.com/ENIGMA-git/coMAPR)
   - [ENIGMADiseaseWorkingGroupStats](https://github.com/ENIGMA-git/ENIGMADiseaseWorkingGroupStats)
   - [ComBat for ENIGMA](https://enigma.ini.usc.edu/wp-content/uploads/2021/07/combat_for_enigma.R.zip)
-  - [Estimation of multisite accuracy]()
+  - [Estimation of multisite accuracy]() -->
 
 </details>
