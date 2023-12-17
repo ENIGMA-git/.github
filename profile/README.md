@@ -82,6 +82,7 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
   - [ENIGMA_DTI_02_EPI_Correction](https://github.com/ENIGMA-git/ENIGMA_DTI_02_EPI_Correction)
   - [ENIGMA_DTI_03_Quality_Control](https://github.com/ENIGMA-git/ENIGMA_DTI_03_Quality_Control)
   - [ENIGMA_DTI_04_DTI_TBSS](https://github.com/ENIGMA-git/ENIGMA_DTI_04_DTI_TBSS)
+  - [ENIGMA_DTI_- eHarmonize ](https://github.com/ahzhu/eharmonize)
 </details>
 
 <!--
