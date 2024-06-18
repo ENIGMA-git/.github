@@ -103,10 +103,10 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
   
 > Genetic analysis protocols for ENIGMA1, ENIGMA2 and ENIGMA-Cortex and DTI.
 
-  - [GCLUST Phenotype Extraction Protocol](https://github.com/ENIGMA-git/GCLUST)
   - [ENIGMA-GWAS: ICV, Subcortical, Cortical](https://github.com/ENIGMA-git/Genetics)
-  - [ENIGMA-CNV](https://github.com/ENIGMA-git/ENIGMA-CNV)
   - [ENIGMA-GWAS: DTI](https://github.com/ENIGMA-git/ENIGMA_DTI_GWAS)
+  - [ENIGMA-CNV](https://github.com/ENIGMA-git/ENIGMA-CNV)
+  - [GCLUST Phenotype Extraction Protocol](https://github.com/ENIGMA-git/GCLUST)
 </details>
 
 <details>
