@@ -2,10 +2,10 @@
 
 # ENIGMA GIT
 
-
 The ENIGMA Consortium is an international effort by leaders worldwide. The Consortium brings together researchers in imaging genomics, neurology and psychiatry, to understand brain structure and function, based on MRI, DTI, fMRI, genetic data and many patient populations.
 
 The ENIGMA Consortium has several goals:
+
 - to create a network of like-minded individuals, interested in pushing forward the field of imaging genetics
 - to ensure promising findings are replicated via member collaborations, in order to satisfy the mandates of most journals
 - to share ideas, algorithms, data, and information on promising findings or methods
@@ -20,59 +20,83 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
   
 > Detailed structural MRI imaging analysis protocols, including subcortical VOLUME extraction, subcortical SHAPE analysis, cortical thickness and surface area, and sulci measure analysis. 
   
-  - [ENIGMA-FreeSurfer-protocol](https://github.com/ENIGMA-git/ENIGMA-FreeSurfer-protocol)
-  - <details>
+- <details>
+    <summary>
+    ENIGMA-FreeSurfer-protocol
+    </summary>
+
+    - [Cross-sectional](https://github.com/ENIGMA-git/ENIGMA-FreeSurfer-protocol)
+    - [Longitudinal](https://github.com/ENIGMA-git/ENIGMA-FreeSurfer-protocol-longitudinal)
+    </details>
+
+- <details>
     <summary>Sub-segmentation of amygdalar, hippocampal and thalamic nuclei</summary>
 
-    > Container allowing for sub-segmentation of amygdalar, hippocampal and thalamic nuclei using T1-weighted images. 
+  > Protocol for sub-segmentation of hippocampal nuclei from T1-weighted images
 
-      - [docker://cvriend/enigma_subthal](https://hub.docker.com/r/cvriend/enigma_subthal)
-    </details>
-  - <details>
+  - [Hippocampal Subfields Protocol](https://github.com/ENIGMA-git/ENIGMA-Subfields)
+
+  > Container allowing for sub-segmentation of thalamic nuclei from T1-weighted images, using FS7.1.1 and Iglesias method (created for ENIGMA OCD)
+
+  - [Thalamic Nuclei Docker](https://hub.docker.com/r/cvriend/enigma_subthal)
+
+- <details>
     <summary>Cerebellar and Spinal Cord Pipelines</summary>
 
-    > Cerebellar and Spinal Cord Pipelines from ENIGMA-Ataxia. 
+  > Cerebellar and Spinal Cord Pipelines from ENIGMA-Ataxia.
 
-      - [ENIGMA Cerebellum Volumetrics Pipeline](https://forms.gle/N4rcZYfZhiNrh7ri8)
-      - [Brain Voxel Based Morphometry](https://github.com/Harding-Lab/enigma-ataxia/tree/master/BrainVoxelBasedMorphometry)
-      - [SpinalCord](https://github.com/Harding-Lab/enigma-ataxia/tree/master/SpinalCord)
-    </details>
-  - <details>
-    <summary><a href="https://drive.google.com/drive/folders/0BwYbl1cTDCImck5DTy15UTMwRXc?usp=sharing">ENIGMA Sulci Protocol</a></summary>
+  - [ENIGMA Cerebellum Volumetrics Pipeline](https://forms.gle/N4rcZYfZhiNrh7ri8)
+  - [Cerabellar Brain Voxel Based Morphometry Pipeline](https://github.com/Harding-Lab/enigma-ataxia/tree/master/BrainVoxelBasedMorphometry)
+  - [Spinal Cord Pipeline](https://github.com/Harding-Lab/enigma-ataxia/tree/master/SpinalCord)
+  </details>
 
-    > This protocol allows you to segment, label, and visually inspect 123 cortical sulci/subject using FreeSurfer, BrainVISA, R and ImageMagick.
-    > 
-    > Development: [Fabrizio Pizzagalli](mailto:fpizzagalli@gmail.com)
-    
-    </details>
-  - <details>
+- <details>
+    <summary>ENIGMA Sulci Protocol</summary>
+
+  > This protocol allows you to segment, label, and visually inspect 123 cortical sulci/subject using FreeSurfer, BrainVISA, R and ImageMagick.
+  >
+  > Development: [Fabrizio Pizzagalli](mailto:fpizzagalli@gmail.com)
+
+  - [Sulci Protocol](https://drive.google.com/drive/folders/0BwYbl1cTDCImck5DTy15UTMwRXc?usp=sharing)
+
+  </details>
+
+- <details>
     <summary>ENIGMA Subcortical Shape</summary>
 
-    > Streamlined tool to perform fine-grained analysis of deep gray matter morphometry using standard brain MRI.
-      - [Shape Protocol](https://enigma.ini.usc.edu/ongoing/enigma-shape-analysis/)
-    </details>
-  - <details>
+  > Streamlined tool to perform fine-grained analysis of deep gray matter morphometry using standard brain MRI.
+
+  - [Shape Protocol](https://enigma.ini.usc.edu/ongoing/enigma-shape-analysis/)
+  </details>
+
+- <details>
     <summary>Voxel Based Morphometry</summary>
     
-      - <details>
-        <summary><a href="https://sites.google.com/view/enigmavbm">ENIGMA VBM Tool </a></summary>
+    - <details>
+        <summary>ENIGMA VBM Tool</summary>
     
-        > 	The ENIGMA Voxel Based Morphometry (VBM) tool is a fully automated pipeline that performs DARTEL VBM and a number of QC steps and sensitivity analyses. The tool packages up the group data for easy transfer to the coordinating site that performs the voxel-wise meta-analysis.
-        >
-        > Development: Matthew Kempton, King’s College London. 
-        </details>
-      - <details>
-        <summary><a href="https://neuro-jena.github.io/enigma-cat12/">ENIGMA Computational Anatomy Toolbox (CAT12)</a></summary>
-    
-        > 	These protocols use [CAT12](https://neuro-jena.github.io/cat/)  to process voxel- and surface-based morphometry, but also enable region-based measures for volume and surface data. CAT12 includes various QC options and covers the entire analysis workflow, from cross-sectional or longitudinal data processing, to the statistical analysis, and visualization of results.
-        >
-        > Development: Christian Gaser, Jena University Hospital. 
-        </details>
-    </details>
-</details>
-<!--   - [PlaceHolder]()
-  - [PlaceHolder]() -->
+      > The ENIGMA Voxel Based Morphometry (VBM) tool is a fully automated pipeline that performs DARTEL VBM and a number of QC steps and sensitivity analyses. The tool packages up the group data for easy transfer to the coordinating site that performs the voxel-wise meta-analysis.
+      >
+      > Development: Matthew Kempton, King’s College London.
 
+      - [ENIGMA VBM Tool](https://sites.google.com/view/enigmavbm)
+
+    </details>
+
+  - <details>
+      <summary>ENIGMA Computational Anatomy Toolbox (CAT12)</summary>
+
+    >     These protocols use [CAT12](https://neuro-jena.github.io/cat/)  to process voxel- and surface-based morphometry, but also enable region-based measures for volume and surface data. CAT12 includes various QC options and covers the entire analysis workflow, from cross-sectional or longitudinal data processing, to the statistical analysis, and visualization of results.
+    >
+    > Development: Christian Gaser, Jena University Hospital.
+
+    - [ENIGMA CAT12 Toolbox](https://neuro-jena.github.io/enigma-cat12/)
+      </details>
+    </details>
+
+  </details>
+
+</details>
 <details>
   <summary><h3>ENIGMA DTI Imaging</h3></summary>
   
@@ -88,34 +112,32 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
   <summary><h3>ENIGMA Subcortical Shape</h3></summary>
 
 > Detailed protocols for ENIGMA Shape analyses.
-  
+
   - [PlaceHolder]()
   - [PlaceHolder]()
   - [PlaceHolder]()
 </details>
 -->
-
-
 <details>
   <summary><h3>ENIGMA Genetics Protocols</h3></summary>
   
 > Genetic analysis protocols for ENIGMA1, ENIGMA2 and ENIGMA-Cortex and DTI.
 
-  - [ENIGMA-GWAS: ICV, Subcortical, Cortical](https://github.com/ENIGMA-git/Genetics)
-  - [ENIGMA-GWAS: DTI](https://github.com/ENIGMA-git/ENIGMA_DTI_GWAS)
-  - [ENIGMA-CNV](https://github.com/ENIGMA-git/ENIGMA-CNV)
-  - [GCLUST Phenotype Extraction Protocol](https://github.com/ENIGMA-git/GCLUST)
+- [ENIGMA-GWAS: ICV, Subcortical, Cortical](https://github.com/ENIGMA-git/Genetics)
+- [ENIGMA-GWAS: DTI](https://github.com/ENIGMA-git/ENIGMA_DTI_GWAS)
+- [ENIGMA-CNV](https://github.com/ENIGMA-git/ENIGMA-CNV)
+- [GCLUST Phenotype Extraction Protocol](https://github.com/ENIGMA-git/GCLUST)
 </details>
 
 <details>
   <summary><h3>ENIGMA Functional Imaging</h3></summary>
 
 > Detailed functional MRI imaging analysis protocols for the ENIGMA resting state and task based fMRI based projects.
-  
+
 - [ENIGMA HALFpipe](https://github.com/HALFpipe)
   - [ENIGMA HALFpipe](https://github.com/halfpipe/halfpipe)
   - [Quality Control manual](https://github.com/HALFpipe/QualityCheck)
-</details>
+  </details>
 
 <details>
   <summary><h3>ENIGMA Statistical Protocols</h3></summary>
@@ -157,11 +179,13 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
 <details>
 <summary><h3>ENIGMA Visualization tools</h3></summary>
 
-  - <details>
-    <summary><a href="http://enigma-toolbox.readthedocs.io">ENIGMA Toolbox </a></summary> 
+- <details>
+    <summary>ENIGMA Toolbox</summary> 
     
-    > A Python/Matlab ecosystem for (i) accessing 100+ ENIGMA datasets, facilitating cross-disorder analysis, (ii) visualizing data on brain surfaces, and (iii) contextualizing findings at the microscale (postmortem cytoarchitecture and gene expression) and macroscale (structural and functional connectomes). The ENIGMA Toolbox equips scientists with tutorials to explore molecular, histological, and network correlates of noninvasive neuroimaging markers of brain disorders. Moreover, the ENIGMA Toolbox bridges the gap between standardized data processing protocols and analytic workflows and facilitates cross-consortia initiatives.<br/><br/>
+    > A Python/Matlab ecosystem for (i) accessing 100+ ENIGMA datasets, facilitating cross-disorder analysis, (ii) visualizing data on brain surfaces, and (iii) contextualizing findings at the microscale (postmortem cytoarchitecture and gene expression) and macroscale (structural and functional connectomes). The ENIGMA Toolbox equips scientists with tutorials to explore molecular, histological, and network correlates of noninvasive neuroimaging markers of brain disorders. Moreover, the ENIGMA Toolbox bridges the gap between standardized data processing protocols and analytic workflows and facilitates cross-consortia initiatives.<br/>
     > Development and support: Sara Larivière & Boris Bernhardt (MICA Lab – Montreal Neurological Institute).
 
-    </details>
-</details>
+  - [ENIGMA Toolbox](http://enigma-toolbox.readthedocs.io)
+  </details>
+
+  </details>
