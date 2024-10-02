@@ -81,8 +81,6 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
 
       - [ENIGMA VBM Tool](https://sites.google.com/view/enigmavbm)
 
-    </details>
-
   - <details>
       <summary>ENIGMA Computational Anatomy Toolbox (CAT12)</summary>
 
@@ -91,8 +89,10 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
     > Development: Christian Gaser, Jena University Hospital.
 
     - [ENIGMA CAT12 Toolbox](https://neuro-jena.github.io/enigma-cat12/)
-      </details>
     </details>
+    </details>
+
+  </details>
 
   </details>
 
@@ -130,52 +130,56 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
 </details>
 
 <details>
-  <summary><h3>ENIGMA Functional Imaging</h3></summary>
+    <summary><h3>ENIGMA Functional Imaging</h3></summary>
 
 > Detailed functional MRI imaging analysis protocols for the ENIGMA resting state and task based fMRI based projects.
 
-- [ENIGMA HALFpipe](https://github.com/HALFpipe)
-  - [ENIGMA HALFpipe](https://github.com/halfpipe/halfpipe)
-  - [Quality Control manual](https://github.com/HALFpipe/QualityCheck)
-  </details>
+- [ENIGMA HALFpipe](https://github.com/HALFpipe) - [ENIGMA HALFpipe](https://github.com/halfpipe/halfpipe) - [Quality Control manual](https://github.com/HALFpipe/QualityCheck)
+</details>
 
 <details>
-  <summary><h3>ENIGMA Statistical Protocols</h3></summary>
+<summary><h3>ENIGMA Statistical Protocols</h3></summary>
   
   - <details>
-    <summary><a href="https://github.com/ENIGMA-git/coMAPR">coMAPR</a></summary>
+    <summary>coMAPR</summary>
     
     >  A database-backed set of routines for linear modelling and meta-analysis of Neuroimaging data.
+
+    - [coMAPR](https://github.com/ENIGMA-git/coMAPR)
+
     </details>
-  - <details>
-    <summary><a href="https://github.com/ENIGMA-git/ENIGMADiseaseWorkingGroupStats">ENIGMADiseaseWorkingGroupStats</a></summary>
-    
-    >  The script is intended for the batch processing of multiple linear models, and the results can easily be carried forward to meta-analysis with provided scripts. 
-    </details>
-  - <details>
-    <summary>ComBat for ENIGMA</summary>
-    
-    >  ComBat is a function that allows for removal of known batch effects. This modified version (written in R) of the function for the ENIGMA Consortium also allows to separate functions for fitting and applying the harmonization, and allows missings and constant rows and minor changes in the arguments of the functions to facilitate their use.
-    >
-    > Please cite “Increased power by harmonizing structural MRI site differences with the ComBat batch adjustment method in ENIGMA” ([Radua et al., NeuroImage 2020](https://www.sciencedirect.com/science/article/pii/S1053811920304420)).
-    >
-    > [R package can be downloaded here](https://cran.r-project.org/package=combat.enigma) or installed with the command: `install.packages("combat.enigma")`.
-    </details>
-  - <details>
-    <summary>Estimation of multisite accuracy</summary>
-    
-    >  The effects of the site may severely bias the accuracy of a multisite machine-learning model, even if the analysts removed them when fitting the model in the ‘training set’ and when applying the model in the ‘test set’. This simple R package estimates the accuracy of a multisite machine-learning model unbiasedly. It currently supports the estimation of sensitivity, specificity, balanced accuracy, the area under the curve, correlation, mean squared error, and hazard ratio for binomial, multinomial, gaussian, and survival (time-to-event) outcomes.
-    >
-    > Please cite “Biased accuracy in multisite machine-learning studies due to incomplete removal of the effects of the site” ([Solanes et al., Psychiatry Res Neuroimaging 2021](https://www.sciencedirect.com/science/article/abs/pii/S0925492721000652?via%3Dihub)).
-    >
-    > [R package can be downloaded here](https://cran.r-project.org/package=multisite.accuracy) or installed with the command: `install.packages("multisite.accuracy")`. [Browser-based GUI can be accessed here](https://www.imardgroup.com/multisite.accuracy/) (this option does not require installation or any knowledge about R). 
-    </details>
-<!--  - [coMAPR](https://github.com/ENIGMA-git/coMAPR)
-  - [ENIGMADiseaseWorkingGroupStats](https://github.com/ENIGMA-git/ENIGMADiseaseWorkingGroupStats)
-  - [ComBat for ENIGMA](https://enigma.ini.usc.edu/wp-content/uploads/2021/07/combat_for_enigma.R.zip)
-  - [Estimation of multisite accuracy]() -->
+
+- <details>
+  <summary>ENIGMA Disease Working Group Stats</summary>
+
+  > The script is intended for the batch processing of multiple linear models, and the results can easily be carried forward to meta-analysis with provided scripts.
+
+  - [ENIGMA Disease Working Group Stats](https://github.com/ENIGMA-git/ENIGMADiseaseWorkingGroupStats)
+  </details>
+
+- <details>
+  <summary>ComBat for ENIGMA</summary>
+
+  > ComBat is a function that allows for removal of known batch effects. This modified version (written in R) of the function for the ENIGMA Consortium also allows to separate functions for fitting and applying the harmonization, and allows missings and constant rows and minor changes in the arguments of the functions to facilitate their use.
+  >
+  > Please cite “Increased power by harmonizing structural MRI site differences with the ComBat batch adjustment method in ENIGMA” ([Radua et al., NeuroImage 2020](https://www.sciencedirect.com/science/article/pii/S1053811920304420)).
+  >
+  > [R package can be downloaded here](https://cran.r-project.org/package=combat.enigma) or installed with the command: `install.packages("combat.enigma")`.
+
+  </details>
+
+- <details>
+      <summary>Estimation of multisite accuracy</summary>
+      
+      >  The effects of the site may severely bias the accuracy of a multisite machine-learning model, even if the analysts removed them when fitting the model in the ‘training set’ and when applying the model in the ‘test set’. This simple R package estimates the accuracy of a multisite machine-learning model unbiasedly. It currently supports the estimation of sensitivity, specificity, balanced accuracy, the area under the curve, correlation, mean squared error, and hazard ratio for binomial, multinomial, gaussian, and survival (time-to-event) outcomes.
+      >
+      > Please cite “Biased accuracy in multisite machine-learning studies due to incomplete removal of the effects of the site” ([Solanes et al., Psychiatry Res Neuroimaging 2021](https://www.sciencedirect.com/science/article/abs/pii/S0925492721000652?via%3Dihub)).
+      >
+      > [R package can be downloaded here](https://cran.r-project.org/package=multisite.accuracy) or installed with the command: `install.packages("multisite.accuracy")`. [Browser-based GUI can be accessed here](https://www.imardgroup.com/multisite.accuracy/) (this option does not require installation or any knowledge about R). 
+  </details>
 
 </details>
+
 <details>
 <summary><h3>ENIGMA Visualization tools</h3></summary>
 
