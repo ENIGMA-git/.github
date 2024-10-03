@@ -57,7 +57,7 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
   >
   > Development: [Fabrizio Pizzagalli](mailto:fpizzagalli@gmail.com)
 
-  - [Sulci Protocol](https://drive.google.com/drive/folders/0BwYbl1cTDCImck5DTy15UTMwRXc?usp=sharing)
+  - [Sulci Protocol](https://hub.docker.com/r/fpizzaga/sulci)
 
   </details>
 
@@ -169,13 +169,13 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
   </details>
 
 - <details>
-      <summary>Estimation of multisite accuracy</summary>
-      
-      >  The effects of the site may severely bias the accuracy of a multisite machine-learning model, even if the analysts removed them when fitting the model in the ‘training set’ and when applying the model in the ‘test set’. This simple R package estimates the accuracy of a multisite machine-learning model unbiasedly. It currently supports the estimation of sensitivity, specificity, balanced accuracy, the area under the curve, correlation, mean squared error, and hazard ratio for binomial, multinomial, gaussian, and survival (time-to-event) outcomes.
-      >
-      > Please cite “Biased accuracy in multisite machine-learning studies due to incomplete removal of the effects of the site” ([Solanes et al., Psychiatry Res Neuroimaging 2021](https://www.sciencedirect.com/science/article/abs/pii/S0925492721000652?via%3Dihub)).
-      >
-      > [R package can be downloaded here](https://cran.r-project.org/package=multisite.accuracy) or installed with the command: `install.packages("multisite.accuracy")`. [Browser-based GUI can be accessed here](https://www.imardgroup.com/multisite.accuracy/) (this option does not require installation or any knowledge about R). 
+    <summary>Estimation of multisite accuracy</summary>
+    
+    >  The effects of the site may severely bias the accuracy of a multisite machine-learning model, even if the analysts removed them when fitting the model in the ‘training set’ and when applying the model in the ‘test set’. This simple R package estimates the accuracy of a multisite machine-learning model unbiasedly. It currently supports the estimation of sensitivity, specificity, balanced accuracy, the area under the curve, correlation, mean squared error, and hazard ratio for binomial, multinomial, gaussian, and survival (time-to-event) outcomes.
+    >
+    > Please cite “Biased accuracy in multisite machine-learning studies due to incomplete removal of the effects of the site” ([Solanes et al., Psychiatry Res Neuroimaging 2021](https://www.sciencedirect.com/science/article/abs/pii/S0925492721000652?via%3Dihub)).
+    >
+    > [R package can be downloaded here](https://cran.r-project.org/package=multisite.accuracy) or installed with the command: `install.packages("multisite.accuracy")`. [Browser-based GUI can be accessed here](https://www.imardgroup.com/multisite.accuracy/) (this option does not require installation or any knowledge about R). 
   </details>
 
 </details>
