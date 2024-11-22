@@ -105,6 +105,7 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
   - [ENIGMA-DTI: Preprocessing Guidelines](https://github.com/ENIGMA-git/ENIGMA-DTI-Preprocessing-Guidelines)
   - [ENIGMA-DTI: TBSS Protocol](https://github.com/ENIGMA-git/ENIGMA-DTI-TBSS-Protocol)
   - [ENIGMA-DTI: eHarmonize](https://github.com/ahzhu/eharmonize)
+  - [ENIGMA-WM: SMACC](https://github.com/USC-LoBeS/smacc)
 </details>
 
 <!--
