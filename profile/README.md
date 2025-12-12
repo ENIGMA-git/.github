@@ -90,6 +90,14 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
 
     - [ENIGMA CAT12 Toolbox](https://neuro-jena.github.io/enigma-cat12/)
     </details>
+
+  - <details>
+      <summary>Focal Lesion Pipeline</summary>
+
+    > ENIGMA's Advanced Guide for parceLlation Error Identification: EAGLE-I (v1.1 March 2025)
+
+    - [EAGLE-I](https://github.com/ENIGMA-git/EAGLE-I)
+    </details>
     </details>
 
   </details>
