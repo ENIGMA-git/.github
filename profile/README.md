@@ -40,6 +40,8 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
 
   - [Thalamic Nuclei Docker](https://hub.docker.com/r/cvriend/enigma_subthal)
 
+  </details>
+
 - <details>
     <summary>Cerebellar and Spinal Cord Pipelines</summary>
 
@@ -71,40 +73,38 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
 
 - <details>
     <summary>Voxel Based Morphometry</summary>
-    
-    - <details>
-        <summary>ENIGMA VBM Tool</summary>
-    
-      > The ENIGMA Voxel Based Morphometry (VBM) tool is a fully automated pipeline that performs DARTEL VBM and a number of QC steps and sensitivity analyses. The tool packages up the group data for easy transfer to the coordinating site that performs the voxel-wise meta-analysis.
-      >
-      > Development: Matthew Kempton, King’s College London.
 
-      - [ENIGMA VBM Tool](https://sites.google.com/view/enigmavbm)
+  - <details>
+      <summary>ENIGMA VBM Tool</summary>
+
+    > The ENIGMA Voxel Based Morphometry (VBM) tool is a fully automated pipeline that performs DARTEL VBM and a number of QC steps and sensitivity analyses. The tool packages up the group data for easy transfer to the coordinating site that performs the voxel-wise meta-analysis.
+    >
+    > Development: Matthew Kempton, King’s College London.
+
+    - [ENIGMA VBM Tool](https://sites.google.com/view/enigmavbm)
+
+    </details>
 
   - <details>
       <summary>ENIGMA Computational Anatomy Toolbox (CAT12)</summary>
 
-    >     These protocols use [CAT12](https://neuro-jena.github.io/cat/)  to process voxel- and surface-based morphometry, but also enable region-based measures for volume and surface data. CAT12 includes various QC options and covers the entire analysis workflow, from cross-sectional or longitudinal data processing, to the statistical analysis, and visualization of results.
+    > These protocols use [CAT12](https://neuro-jena.github.io/cat/) to process voxel- and surface-based morphometry, but also enable region-based measures for volume and surface data. CAT12 includes various QC options and covers the entire analysis workflow, from cross-sectional or longitudinal data processing, to the statistical analysis, and visualization of results.
     >
     > Development: Christian Gaser, Jena University Hospital.
 
     - [ENIGMA CAT12 Toolbox](https://neuro-jena.github.io/enigma-cat12/)
     </details>
 
-  - <details>
-      <summary>Focal Lesion Pipeline</summary>
+- <details>
+    <summary> Focal Lesion Pipeline </summary>
+    
+    > ENIGMA's Advanced Guide for parceLlation Error Identification: EAGLE-I
 
-    > ENIGMA's Advanced Guide for parceLlation Error Identification: EAGLE-I (v1.1 March 2025)
-
-    - [EAGLE-I](https://github.com/ENIGMA-git/EAGLE-I)
-    </details>
-    </details>
+  - [EAGLE-I](https://github.com/ENIGMA-git/EAGLE-I)
 
   </details>
-
   </details>
 
-</details>
 <details>
   <summary><h3>ENIGMA DTI Imaging</h3></summary>
   
@@ -187,7 +187,19 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
     > [R package can be downloaded here](https://cran.r-project.org/package=multisite.accuracy) or installed with the command: `install.packages("multisite.accuracy")`. [Browser-based GUI can be accessed here](https://www.imardgroup.com/multisite.accuracy/) (this option does not require installation or any knowledge about R). 
   </details>
 
-</details>
+- <details>
+    <summary> Image-Based Meta- & Mega-Analysis (IBMMA) </summary>
+     
+     > IBMMA is a powerful and versatile free software package designed for meta- and mega-analysis on neuroimaging datasets aggregated from multiple study sites, such as ENIGMA (Enhancing NeuroImaging Genetics through Meta Analysis) Consortium and NCANDA (National Consortium on Alcohol and Neurodevelopment in Adolescence). 
+     
+     > It employs mass-univariate statistical models to analyze diverse neuroimaging features, including voxel-, vertex-, and connectome-based anatomical and functional brain measures.
+
+  - [IBMMA Package](https://github.com/sundelinustc/IBMMA)
+
+  > [Please cite "Image-based meta- and mega-analysis (IBMMA): A unified framework for large-scale, multi-site, neuroimaging data analysis" (Steele et al., NeuroImage 2025)](https://www.sciencedirect.com/science/article/pii/S1053811925005579)
+
+  </details>
+  </details>
 
 <details>
 <summary><h3>ENIGMA Visualization tools</h3></summary>
