@@ -33,11 +33,9 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
     <summary>Sub-segmentation of amygdalar, hippocampal and thalamic nuclei</summary>
 
   > Protocol for sub-segmentation of hippocampal nuclei from T1-weighted images
-
   - [Hippocampal Subfields Protocol](https://github.com/ENIGMA-git/ENIGMA-Subfields)
 
   > Container allowing for sub-segmentation of thalamic nuclei from T1-weighted images, using FS7.1.1 and Iglesias method (created for ENIGMA OCD)
-
   - [Thalamic Nuclei Docker](https://hub.docker.com/r/cvriend/enigma_subthal)
 
   </details>
@@ -46,7 +44,6 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
     <summary>Cerebellar and Spinal Cord Pipelines</summary>
 
   > Cerebellar and Spinal Cord Pipelines from ENIGMA-Ataxia.
-
   - [ENIGMA Cerebellum Volumetrics Pipeline](https://forms.gle/N4rcZYfZhiNrh7ri8)
   - [Cerabellar Brain Voxel Based Morphometry Pipeline](https://github.com/Harding-Lab/enigma-ataxia/tree/master/BrainVoxelBasedMorphometry)
   - [Spinal Cord Pipeline](https://github.com/Harding-Lab/enigma-ataxia/tree/master/SpinalCord)
@@ -58,7 +55,6 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
   > This protocol allows you to segment, label, and visually inspect 123 cortical sulci/subject using FreeSurfer, BrainVISA, R and ImageMagick.
   >
   > Development: [Fabrizio Pizzagalli](mailto:fpizzagalli@gmail.com)
-
   - [Sulci Protocol](https://hub.docker.com/r/fpizzaga/sulci)
 
   </details>
@@ -67,20 +63,17 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
     <summary>ENIGMA Subcortical Shape</summary>
 
   > Streamlined tool to perform fine-grained analysis of deep gray matter morphometry using standard brain MRI.
-
   - [Shape Protocol](https://enigma.ini.usc.edu/ongoing/enigma-shape-analysis/)
   </details>
 
 - <details>
     <summary>Voxel Based Morphometry</summary>
-
   - <details>
       <summary>ENIGMA VBM Tool</summary>
 
     > The ENIGMA Voxel Based Morphometry (VBM) tool is a fully automated pipeline that performs DARTEL VBM and a number of QC steps and sensitivity analyses. The tool packages up the group data for easy transfer to the coordinating site that performs the voxel-wise meta-analysis.
     >
     > Development: Matthew Kempton, King’s College London.
-
     - [ENIGMA VBM Tool](https://sites.google.com/view/enigmavbm)
 
     </details>
@@ -91,7 +84,6 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
     > These protocols use [CAT12](https://neuro-jena.github.io/cat/) to process voxel- and surface-based morphometry, but also enable region-based measures for volume and surface data. CAT12 includes various QC options and covers the entire analysis workflow, from cross-sectional or longitudinal data processing, to the statistical analysis, and visualization of results.
     >
     > Development: Christian Gaser, Jena University Hospital.
-
     - [ENIGMA CAT12 Toolbox](https://neuro-jena.github.io/enigma-cat12/)
     </details>
 
@@ -99,7 +91,6 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
     <summary> Focal Lesion Pipeline </summary>
     
     > ENIGMA's Advanced Guide for parceLlation Error Identification: EAGLE-I
-
   - [EAGLE-I](https://github.com/ENIGMA-git/EAGLE-I)
 
   </details>
@@ -113,6 +104,7 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
   - [ENIGMA-DTI: Preprocessing Guidelines](https://github.com/ENIGMA-git/ENIGMA-DTI-Preprocessing-Guidelines)
   - [ENIGMA-DTI: TBSS Protocol](https://github.com/ENIGMA-git/ENIGMA-DTI-TBSS-Protocol)
   - [ENIGMA-DTI: eHarmonize](https://github.com/ahzhu/eharmonize)
+  - [ENIGMA-DTI: Normative Modeling](https://github.com/ENIGMA-git/ENIGMA-DTI-Normative-Modeling)
   - [ENIGMA-WM: SMACC](https://github.com/USC-LoBeS/smacc)
 </details>
 
@@ -162,7 +154,6 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
   <summary>ENIGMA Disease Working Group Stats</summary>
 
   > The script is intended for the batch processing of multiple linear models, and the results can easily be carried forward to meta-analysis with provided scripts.
-
   - [ENIGMA Disease Working Group Stats](https://github.com/ENIGMA-git/ENIGMADiseaseWorkingGroupStats)
   </details>
 
@@ -193,7 +184,6 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
      > IBMMA is a powerful and versatile free software package designed for meta- and mega-analysis on neuroimaging datasets aggregated from multiple study sites, such as ENIGMA (Enhancing NeuroImaging Genetics through Meta Analysis) Consortium and NCANDA (National Consortium on Alcohol and Neurodevelopment in Adolescence). 
      
      > It employs mass-univariate statistical models to analyze diverse neuroimaging features, including voxel-, vertex-, and connectome-based anatomical and functional brain measures.
-
   - [IBMMA Package](https://github.com/sundelinustc/IBMMA)
 
   > [Please cite "Image-based meta- and mega-analysis (IBMMA): A unified framework for large-scale, multi-site, neuroimaging data analysis" (Steele et al., NeuroImage 2025)](https://www.sciencedirect.com/science/article/pii/S1053811925005579)
@@ -209,7 +199,6 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
     
     > A Python/Matlab ecosystem for (i) accessing 100+ ENIGMA datasets, facilitating cross-disorder analysis, (ii) visualizing data on brain surfaces, and (iii) contextualizing findings at the microscale (postmortem cytoarchitecture and gene expression) and macroscale (structural and functional connectomes). The ENIGMA Toolbox equips scientists with tutorials to explore molecular, histological, and network correlates of noninvasive neuroimaging markers of brain disorders. Moreover, the ENIGMA Toolbox bridges the gap between standardized data processing protocols and analytic workflows and facilitates cross-consortia initiatives.<br/>
     > Development and support: Sara Larivière & Boris Bernhardt (MICA Lab – Montreal Neurological Institute).
-
   - [ENIGMA Toolbox](http://enigma-toolbox.readthedocs.io)
   </details>
 
