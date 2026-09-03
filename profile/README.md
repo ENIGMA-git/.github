@@ -68,6 +68,7 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
 
 - <details>
     <summary>Voxel Based Morphometry</summary>
+  
   - <details>
       <summary>ENIGMA VBM Tool</summary>
 
@@ -86,7 +87,8 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
     > Development: Christian Gaser, Jena University Hospital.
     - [ENIGMA CAT12 Toolbox](https://neuro-jena.github.io/enigma-cat12/)
     </details>
-
+  </details>
+  
 - <details>
     <summary> Focal Lesion Pipeline </summary>
     
@@ -94,7 +96,18 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
   - [EAGLE-I](https://github.com/ENIGMA-git/EAGLE-I)
 
   </details>
+
+- <details>
+    <summary> White Matter Lesion Pipeline </summary>
+    
+    > ENIGMA's White Matter Lesion Pipeline , developed for the ENIGMA-Parkinson's Working Group, allows white matter lesions (WML) to be segmented from a subject's T1-weighted and FLAIR MRI images from the same scanning session. The analysis steps (including pre- and post- processing).
+    >
+    > Contributors: Sarah Al-Bachari, Shauna Angell, Hamied Haroon, Robin Long, Renee Mapa, Kimberly Meechan and Paul Smith. With specialist input from Neda Jahanshad, Conor Owens-Walton, Sunanda Somu and Chris Vriend.
+  - [ENIGMA-PD-WML](https://github.com/UCL/Enigma-PD-WML)
+
   </details>
+
+</details>
 
 <details>
   <summary><h3>ENIGMA DTI Imaging</h3></summary>
@@ -135,7 +148,40 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
 
 > Detailed functional MRI imaging analysis protocols for the ENIGMA resting state and task based fMRI based projects.
 
-- [ENIGMA HALFpipe](https://github.com/HALFpipe) - [ENIGMA HALFpipe](https://github.com/halfpipe/halfpipe) - [Quality Control manual](https://github.com/HALFpipe/QualityCheck)
+- [ENIGMA HALFpipe](https://fmri.science/halfpipe/) - [Quality Control manual](https://fmri.science/halfpipe/quality-control.html)
+</details>
+
+<details>
+    <summary><h3>ENIGMA EEG Protocols</h3></summary>
+
+> These pipelines were developed for the ENIGMA EEG Working Group.
+>
+> Development: Dirk Smit, Philippe Jawinski
+
+- [ENIGMA EEG Processing Pipelines](https://enigma.ini.usc.edu/ongoing/enigma-eeg-working-group/)
+  
+</details>
+
+<details>
+    <summary><h3>ENIGMA MEG Protocols</h3></summary>
+
+> The programs in this package perform the full processing pipeline for the ENIGMA MEG Working Group.
+>
+> Development: Jeff Stout, Anna Namyst, Allison Nugent
+
+- [ENIGMA MEG Processing Pipeline](https://github.com/nih-megcore/enigma_MEG)
+  
+</details>
+
+<details>
+    <summary><h3>ENIGMA Spectroscopy Protocols</h3></summary>
+
+> Detailed tools and resources for ENIGMA-MRS data collection and analysis. This repository contains tools and resources to process single-voxel MRS data.
+>
+> Development: Georg Oeltzschner, Ashley D. Harris, Alexander P. Lin, Brenda Bartnik-Olson
+
+- [ENIGMA MRS Processing Pipeline](https://github.com/schorschinho/enigma-mrs)
+  
 </details>
 
 <details>
