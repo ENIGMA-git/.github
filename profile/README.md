@@ -110,7 +110,7 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
 </details>
 
 <details>
-  <summary><h3>ENIGMA DTI Imaging</h3></summary>
+  <summary><h3>ENIGMA dMRI / WM Imaging</h3></summary>
   
 > Detailed diffusion tensor imaging protocols for the ENIGMA DTI based projects.
   
@@ -119,6 +119,7 @@ Image processing protocols and genetic analysis protocols for various ENIGMA pro
   - [ENIGMA-DTI: eHarmonize](https://github.com/ahzhu/eharmonize)
   - [ENIGMA-DTI: Normative Modeling](https://github.com/ENIGMA-git/ENIGMA-DTI-Normative-Modeling)
   - [ENIGMA-WM: SMACC](https://github.com/USC-LoBeS/smacc)
+  - [ENIGMA-Tractometry: along tract analysis](https://github.com/ENIGMA-git/eTractometry) 
 </details>
 
 <!--
